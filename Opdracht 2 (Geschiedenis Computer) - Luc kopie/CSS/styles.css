@@ -1,0 +1,102 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6,
+.parallax7, .parallax8, .parallax9, .parallax10, .parallax11, .parallax12, .parallax13 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70%;
+}
+
+
+.parallax1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("stevejobs.png");
+  min-height: 100%;
+}
+
+.parallax2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("apple1.png");
+}
+
+.parallax3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("apple2.png");
+}
+
+.parallax4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("applelisa.png");
+}
+
+.parallax5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("applemacintosh.png");
+}
+
+.parallax6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("mac.png");
+}
+
+.parallax7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("powerbook.png");
+}
+
+.parallax8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("next.png");
+}
+
+.parallax9 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imac.png");
+}
+
+.parallax10 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ipod.png");
+}
+
+.parallax11 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("iphone.png");
+}
+
+.parallax12 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ipad.png");
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: transparent;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12 {
+  float: right;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+
+}
+
+#title {
+  text-align: center;
+  font-size: 40px;
+}
